@@ -1,6 +1,8 @@
-# BTR Sports — Product Feed for Affiliates
+# BTR Sports - Product Feed for Affiliates
 
-Public product feed for [btrsports.co.uk](https://btrsports.co.uk). All active, in-range products in whichever format suits you. Refreshed automatically but contact us if you need a particular update pushed.
+Public product feed for [btrsports.co.uk](https://btrsports.co.uk). All active, in-range products in whichever format suits you.
+
+**Updated whenever prices or the range change.** The commit history above shows when it was last refreshed, and the JSON feed carries a `generated_at` timestamp so you can check how current your copy is. Email **bryn@btrdirect.co.uk** if you need a refresh pushed sooner.
 
 ## Download
 
@@ -10,7 +12,7 @@ Public product feed for [btrsports.co.uk](https://btrsports.co.uk). All active, 
 | JSON | [affiliate-feed.json](https://raw.githubusercontent.com/web3at50/btr-feed/main/affiliate-feed.json) |
 | XML (Google Shopping / RSS 2.0) | [affiliate-feed.xml](https://raw.githubusercontent.com/web3at50/btr-feed/main/affiliate-feed.xml) |
 
-All three URLs are stable — they will always point to the latest version.
+All three URLs are stable - they will always point to the latest version.
 
 ## Fields
 
@@ -31,11 +33,11 @@ In the XML feed, fields are mapped to the standard [Google Merchant](https://sup
 
 ## Using the images
 
-Images are served from Shopify's CDN and are safe to hotlink directly — no need to download or re-host them. Need a different size? Append or change the `width=` query parameter:
+Images are served from Shopify's CDN and are safe to hotlink directly - no need to download or re-host them. Need a different size? Append or change the `width=` query parameter:
 
 ```
 ...product-image.jpg?width=400    (thumbnail)
-...product-image.jpg?width=800    (default — product card)
+...product-image.jpg?width=800    (default - product card)
 ...product-image.jpg?width=1200   (hero / zoom)
 ```
 
@@ -47,7 +49,7 @@ BTR partners get:
 - Custom tracked referral link
 - Optional banner assets on request
 
-Managed via [GoAffPro](https://goaffpro.com). To join, contact us and we'll set you up end-to-end — you just need to share your link and code. 
+Managed via [GoAffPro](https://goaffpro.com). To join, contact us and we'll set you up end-to-end - you just need to share your link and code. 
 
 Or signup yourself here: https://btrsports.goaffpro.com/create-account
 
